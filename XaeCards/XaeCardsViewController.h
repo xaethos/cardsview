@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XaeCardsView.h"
 
-@interface XaeCardsViewController : UIViewController {
-    
+
+@interface XaeCardsViewController : UIViewController<
+XaeCardsViewDataSource,
+XaeCardsViewDelegate
+> {
+ @private
+  // IB Outlets
+  XaeCardsView *cardsView_;
 }
+@property(nonatomic,retain) IBOutlet XaeCardsView *cardsView;
 
 @end
