@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		661B85C2136A7B660085B18B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661B85C1136A7B660085B18B /* UIKit.framework */; };
+		661B85C4136A7B660085B18B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661B85C3136A7B660085B18B /* Foundation.framework */; };
+		661B85C6136A7B660085B18B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661B85C5136A7B660085B18B /* CoreGraphics.framework */; };
+		661B85CC136A7B660085B18B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 661B85CA136A7B660085B18B /* InfoPlist.strings */; };
+		661B85CF136A7B660085B18B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 661B85CE136A7B660085B18B /* main.m */; };
+		661B85D2136A7B660085B18B /* XaeCardsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 661B85D1136A7B660085B18B /* XaeCardsAppDelegate.m */; };
+		661B85D5136A7B660085B18B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661B85D3136A7B660085B18B /* MainWindow.xib */; };
+		661B85D8136A7B660085B18B /* XaeCardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661B85D7136A7B660085B18B /* XaeCardsViewController.m */; };
+		661B85DB136A7B660085B18B /* XaeCardsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661B85D9136A7B660085B18B /* XaeCardsViewController.xib */; };
+		661B85E2136A7B670085B18B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661B85C1136A7B660085B18B /* UIKit.framework */; };
+		661B85E3136A7B670085B18B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661B85C3136A7B660085B18B /* Foundation.framework */; };
+		661B85E4136A7B670085B18B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661B85C5136A7B660085B18B /* CoreGraphics.framework */; };
+		661B85EC136A7B670085B18B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 661B85EA136A7B670085B18B /* InfoPlist.strings */; };
+		661B85EF136A7B670085B18B /* XaeCardsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 661B85EE136A7B670085B18B /* XaeCardsTests.h */; };
+		661B85F1136A7B670085B18B /* XaeCardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 661B85F0136A7B670085B18B /* XaeCardsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		661B85E5136A7B670085B18B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 661B85B4136A7B660085B18B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 661B85BC136A7B660085B18B;
+			remoteInfo = XaeCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		661B85BD136A7B660085B18B /* XaeCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XaeCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		661B85C1136A7B660085B18B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		661B85C3136A7B660085B18B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		661B85C5136A7B660085B18B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		661B85C9136A7B660085B18B /* XaeCards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XaeCards-Info.plist"; sourceTree = "<group>"; };
+		661B85CB136A7B660085B18B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		661B85CD136A7B660085B18B /* XaeCards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XaeCards-Prefix.pch"; sourceTree = "<group>"; };
+		661B85CE136A7B660085B18B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		661B85D0136A7B660085B18B /* XaeCardsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XaeCardsAppDelegate.h; sourceTree = "<group>"; };
+		661B85D1136A7B660085B18B /* XaeCardsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XaeCardsAppDelegate.m; sourceTree = "<group>"; };
+		661B85D4136A7B660085B18B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		661B85D6136A7B660085B18B /* XaeCardsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XaeCardsViewController.h; sourceTree = "<group>"; };
+		661B85D7136A7B660085B18B /* XaeCardsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XaeCardsViewController.m; sourceTree = "<group>"; };
+		661B85DA136A7B660085B18B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XaeCardsViewController.xib; sourceTree = "<group>"; };
+		661B85E1136A7B670085B18B /* XaeCardsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XaeCardsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		661B85E9136A7B670085B18B /* XaeCardsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XaeCardsTests-Info.plist"; sourceTree = "<group>"; };
+		661B85EB136A7B670085B18B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		661B85ED136A7B670085B18B /* XaeCardsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XaeCardsTests-Prefix.pch"; sourceTree = "<group>"; };
+		661B85EE136A7B670085B18B /* XaeCardsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XaeCardsTests.h; sourceTree = "<group>"; };
+		661B85F0136A7B670085B18B /* XaeCardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XaeCardsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		661B85BA136A7B660085B18B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661B85C2136A7B660085B18B /* UIKit.framework in Frameworks */,
+				661B85C4136A7B660085B18B /* Foundation.framework in Frameworks */,
+				661B85C6136A7B660085B18B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661B85DD136A7B670085B18B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661B85E2136A7B670085B18B /* UIKit.framework in Frameworks */,
+				661B85E3136A7B670085B18B /* Foundation.framework in Frameworks */,
+				661B85E4136A7B670085B18B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		661B85B2136A7B660085B18B = {
+			isa = PBXGroup;
+			children = (
+				661B85C7136A7B660085B18B /* XaeCards */,
+				661B85E7136A7B670085B18B /* XaeCardsTests */,
+				661B85C0136A7B660085B18B /* Frameworks */,
+				661B85BE136A7B660085B18B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		661B85BE136A7B660085B18B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				661B85BD136A7B660085B18B /* XaeCards.app */,
+				661B85E1136A7B670085B18B /* XaeCardsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		661B85C0136A7B660085B18B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				661B85C1136A7B660085B18B /* UIKit.framework */,
+				661B85C3136A7B660085B18B /* Foundation.framework */,
+				661B85C5136A7B660085B18B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		661B85C7136A7B660085B18B /* XaeCards */ = {
+			isa = PBXGroup;
+			children = (
+				661B85D0136A7B660085B18B /* XaeCardsAppDelegate.h */,
+				661B85D1136A7B660085B18B /* XaeCardsAppDelegate.m */,
+				661B85D3136A7B660085B18B /* MainWindow.xib */,
+				661B85D6136A7B660085B18B /* XaeCardsViewController.h */,
+				661B85D7136A7B660085B18B /* XaeCardsViewController.m */,
+				661B85D9136A7B660085B18B /* XaeCardsViewController.xib */,
+				661B85C8136A7B660085B18B /* Supporting Files */,
+			);
+			path = XaeCards;
+			sourceTree = "<group>";
+		};
+		661B85C8136A7B660085B18B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				661B85C9136A7B660085B18B /* XaeCards-Info.plist */,
+				661B85CA136A7B660085B18B /* InfoPlist.strings */,
+				661B85CD136A7B660085B18B /* XaeCards-Prefix.pch */,
+				661B85CE136A7B660085B18B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		661B85E7136A7B670085B18B /* XaeCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				661B85EE136A7B670085B18B /* XaeCardsTests.h */,
+				661B85F0136A7B670085B18B /* XaeCardsTests.m */,
+				661B85E8136A7B670085B18B /* Supporting Files */,
+			);
+			path = XaeCardsTests;
+			sourceTree = "<group>";
+		};
+		661B85E8136A7B670085B18B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				661B85E9136A7B670085B18B /* XaeCardsTests-Info.plist */,
+				661B85EA136A7B670085B18B /* InfoPlist.strings */,
+				661B85ED136A7B670085B18B /* XaeCardsTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		661B85BC136A7B660085B18B /* XaeCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661B85F4136A7B670085B18B /* Build configuration list for PBXNativeTarget "XaeCards" */;
+			buildPhases = (
+				661B85B9136A7B660085B18B /* Sources */,
+				661B85BA136A7B660085B18B /* Frameworks */,
+				661B85BB136A7B660085B18B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XaeCards;
+			productName = XaeCards;
+			productReference = 661B85BD136A7B660085B18B /* XaeCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		661B85E0136A7B670085B18B /* XaeCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661B85F7136A7B670085B18B /* Build configuration list for PBXNativeTarget "XaeCardsTests" */;
+			buildPhases = (
+				661B85DC136A7B670085B18B /* Sources */,
+				661B85DD136A7B670085B18B /* Frameworks */,
+				661B85DE136A7B670085B18B /* Resources */,
+				661B85DF136A7B670085B18B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				661B85E6136A7B670085B18B /* PBXTargetDependency */,
+			);
+			name = XaeCardsTests;
+			productName = XaeCardsTests;
+			productReference = 661B85E1136A7B670085B18B /* XaeCardsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		661B85B4136A7B660085B18B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Maven Lab";
+			};
+			buildConfigurationList = 661B85B7136A7B660085B18B /* Build configuration list for PBXProject "XaeCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 661B85B2136A7B660085B18B;
+			productRefGroup = 661B85BE136A7B660085B18B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				661B85BC136A7B660085B18B /* XaeCards */,
+				661B85E0136A7B670085B18B /* XaeCardsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		661B85BB136A7B660085B18B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661B85CC136A7B660085B18B /* InfoPlist.strings in Resources */,
+				661B85D5136A7B660085B18B /* MainWindow.xib in Resources */,
+				661B85DB136A7B660085B18B /* XaeCardsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661B85DE136A7B670085B18B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661B85EC136A7B670085B18B /* InfoPlist.strings in Resources */,
+				661B85EF136A7B670085B18B /* XaeCardsTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		661B85DF136A7B670085B18B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		661B85B9136A7B660085B18B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661B85CF136A7B660085B18B /* main.m in Sources */,
+				661B85D2136A7B660085B18B /* XaeCardsAppDelegate.m in Sources */,
+				661B85D8136A7B660085B18B /* XaeCardsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661B85DC136A7B670085B18B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661B85F1136A7B670085B18B /* XaeCardsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		661B85E6136A7B670085B18B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 661B85BC136A7B660085B18B /* XaeCards */;
+			targetProxy = 661B85E5136A7B670085B18B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		661B85CA136A7B660085B18B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661B85CB136A7B660085B18B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		661B85D3136A7B660085B18B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661B85D4136A7B660085B18B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		661B85D9136A7B660085B18B /* XaeCardsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661B85DA136A7B660085B18B /* en */,
+			);
+			name = XaeCardsViewController.xib;
+			sourceTree = "<group>";
+		};
+		661B85EA136A7B670085B18B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661B85EB136A7B670085B18B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		661B85F2136A7B670085B18B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		661B85F3136A7B670085B18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		661B85F5136A7B670085B18B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XaeCards/XaeCards-Prefix.pch";
+				INFOPLIST_FILE = "XaeCards/XaeCards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		661B85F6136A7B670085B18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XaeCards/XaeCards-Prefix.pch";
+				INFOPLIST_FILE = "XaeCards/XaeCards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		661B85F8136A7B670085B18B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XaeCards.app/XaeCards";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XaeCardsTests/XaeCardsTests-Prefix.pch";
+				INFOPLIST_FILE = "XaeCardsTests/XaeCardsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		661B85F9136A7B670085B18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XaeCards.app/XaeCards";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XaeCardsTests/XaeCardsTests-Prefix.pch";
+				INFOPLIST_FILE = "XaeCardsTests/XaeCardsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		661B85B7136A7B660085B18B /* Build configuration list for PBXProject "XaeCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661B85F2136A7B670085B18B /* Debug */,
+				661B85F3136A7B670085B18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661B85F4136A7B670085B18B /* Build configuration list for PBXNativeTarget "XaeCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661B85F5136A7B670085B18B /* Debug */,
+				661B85F6136A7B670085B18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		661B85F7136A7B670085B18B /* Build configuration list for PBXNativeTarget "XaeCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661B85F8136A7B670085B18B /* Debug */,
+				661B85F9136A7B670085B18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 661B85B4136A7B660085B18B /* Project object */;
+}
